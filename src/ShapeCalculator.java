@@ -3,7 +3,7 @@ public class ShapeCalculator {
     double circleArea(Shape cirle) {
         return Math.round(cirle.PI * Math.pow(cirle.promien_kola, 2));
     }
-
+    
     double circleObwod(Shape cirle) {
         return Math.round(2 * cirle.PI * cirle.promien_kola);
     }
